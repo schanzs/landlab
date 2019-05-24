@@ -21,6 +21,7 @@ from .landslides import LandslideProbability
 from .lithology import LithoLayers, Lithology
 from .nonlinear_diffusion import PerronNLDiffuse
 from .normal_fault import NormalFault
+from .otter import Otter
 from .overland_flow import (
     KinwaveImplicitOverlandFlow,
     KinwaveOverlandFlowModel,
@@ -49,6 +50,7 @@ from .vegetation_dynamics import Vegetation
 from .weathering import ExponentialWeatherer
 
 COMPONENTS = [
+    Otter,
     ChiFinder,
     LinearDiffuser,
     Flexure,
